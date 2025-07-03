@@ -68,6 +68,19 @@
                         <h4 class="text-xl font-semibold text-blue-800 mb-2">Soporte 24/7</h4>
                         <p class="text-gray-700">Atención al cliente disponible cuando la necesites.</p>
                     </div>
+                    <div class="col-span-full mt-8">
+                        <h3 class="text-2xl font-bold text-center text-blue-600 mb-4">¡Descubre más con nuestro video!</h3>
+                        <div class="relative" style="padding-bottom: 56.25%;">
+                            <iframe
+                                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                                class="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
+                            ></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -77,7 +90,7 @@
             <div id="product-list" class="product-grid">
                 <p class="col-span-full text-center text-gray-600">Cargando productos...</p>
             </div>
-            </section>
+        </section>
 
         <section id="promociones" class="section-container mt-12">
             <h2 class="text-4xl font-bold text-center text-blue-600 mb-8">Promociones Exclusivas</h2>
