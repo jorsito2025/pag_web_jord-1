@@ -10,8 +10,6 @@
 </head>
 <body class="bg-gray-100 font-inter text-gray-800 antialiased">
     
-    </div>
-
     <header class="bg-blue-700 text-white p-4 shadow-lg sticky top-0 z-40">
         <div class="container mx-auto flex flex-wrap justify-between items-center">
             <div class="logo">
@@ -21,8 +19,7 @@
                 <ul class="flex space-x-6">
                     <li><a href="#inicio" class="hover:text-blue-200 transition duration-300">Inicio</a></li>
                     <li><a href="#productos" class="hover:text-blue-200 transition duration-300">Productos</a></li>
-                    <li><a href="#ofertas" id="link-ofertas" class="hover:text-blue-200 transition duration-300">Ofertas</a></li>
-                    <li><a href="#contacto" class="hover:text-blue-200 transition duration-300">Contacto</a></li>
+                    <li><a href="#promociones" id="link-ofertas" class="hover:text-blue-200 transition duration-300">Ofertas</a></li> <li><a href="#contacto" class="hover:text-blue-200 transition duration-300">Contacto</a></li>
                 </ul>
             </nav>
             <div class="user-area flex items-center space-x-4 mt-4 md:mt-0">
@@ -72,8 +69,7 @@
                         <h3 class="text-2xl font-bold text-center text-blue-600 mb-4">¡Descubre más con nuestro video!</h3>
                         <div class="relative" style="padding-bottom: 56.25%;">
                             <iframe
-                                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                                title="YouTube video player"
+                                src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player"
                                 frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen
@@ -87,7 +83,7 @@
 
         <section id="productos" class="section-container mt-12">
             <h2 class="text-4xl font-bold text-center text-blue-600 mb-8">Nuestros Productos</h2>
-            <div id="product-list" class="product-grid">
+            <div id="product-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <p class="col-span-full text-center text-gray-600">Cargando productos...</p>
             </div>
         </section>
@@ -142,7 +138,7 @@
                         <a href="#" class="text-blue-600 hover:text-blue-800 transition duration-300 text-3xl"><i class="fab fa-instagram"></i></a>
                     </div>
                     <div class="map-placeholder mt-6">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.5410190533725!2d-70.57502442436852!3d-33.51336420067676!2m3!1f0!2m2!1f0!2f0!3m3!1m2!1s0x9662d001e9d1e39b%3A0x6b4c2b9a7f3e8b4e!2sPlaza%20Ega%C3%B1a!5e0!3m2!1ses-419!2scl!4v1719266185856!5m2!1ses-419!2scl" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.6966140507234!2d-70.5739347!3d-33.513437199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d0115006093d%3A0x6b0c201d4b6b1b6!2sAv.%20Siempre%20Viva%20742%2C%20Pe%C3%B1alol%C3%A9n%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1700000000000!5m2!1ses-419!2scl" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
