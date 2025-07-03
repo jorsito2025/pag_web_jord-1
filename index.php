@@ -9,14 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="bg-gray-100 font-inter text-gray-800 antialiased">
-    <div class="welcome-message fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 transition-opacity duration-500">
-        <div class="bg-white p-8 rounded-lg shadow-xl text-center max-w-sm mx-4">
-            <h2 class="text-3xl font-bold text-blue-600 mb-4">¡Bienvenido a Jordan Rojas y León Tienda!</h2>
-            <p class="text-gray-700 mb-6">Descubre nuestros productos electrónicos de alta calidad y las mejores ofertas.</p>
-            <button class="close-welcome-btn bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition duration-300 shadow-md">
-                Comenzar a Comprar
-            </button>
-        </div>
+    
     </div>
 
     <header class="bg-blue-700 text-white p-4 shadow-lg sticky top-0 z-40">
